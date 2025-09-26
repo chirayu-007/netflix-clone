@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+.background-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(netflix-background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1.2rem; 
+
+}
+
+/* @media screen and (max-width: 625px) {
+    .background-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+} */
+
+
+#neteflix-icon{
+    height: 2rem;
+}
+
+.nav-box{
+    width: 76.5%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lang-signin-box{
+    display: flex;
+    gap: 1.4rem;
+}
+
+#la-box{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: small;
+    border-radius: 4px;
+    padding: .1rem .6rem;
+    
+}
+
+#signin-button{
+    color: white;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(232, 2, 2);
+    border-radius: 4px;
+    padding: .532rem .95rem;
+    border: none;
+}
+.membership-conntainer{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#membership-heading{
+    color: white;
+    font-size: 1.rem;
+    margin-bottom: 1.2rem;
+}
+
+#membership-para1{
+    color: white;
+    font-size: 1.55rem;
+    margin-bottom: 1.6rem;
+}
+
+#membership-para2{
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1.1rem;
+}
+
+#email-input{
+    width: 22rem;
+    padding: 1.3rem 1rem;
+    border-radius: 4px;
+    border: .1px solid white;
+    background-color: rgba(36, 36, 36, 0.809);
+    margin-right: .5rem;
+}
+
+.email-button{
+    gap: 1rem;
+}
+
+#submit-button{
+   padding: 1rem 2rem;
+   color: white;
+   background-color: rgb(223, 0, 0);
+   border-radius: 4px;
+   border: none;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+
+.tv-container{
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    border-top: .5rem solid rgb(44, 43, 43);
+    border-bottom: .5rem solid rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.tv-text-box{
+    width: 35%;
+    color: white;
+}
+
+#tv-png{
+    height: 23.4rem;
+    position: relative;
+}
+
+#tv-video{
+    margin-top: 4.7rem ;
+    margin-left: 4rem ;
+    position: absolute;
+    height: 13rem;
+}
+
+#tv-heading{
+    font-size: 3rem;
+}
+
+#tv-para{
+    font-size: 1.45rem;
+}
+
+.download-background-container{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-background-container{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-background-container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.right-background-container h1{
+    font-size: 3rem;
+}
+
+.right-background-container p{
+    font-size: 1.4rem;
+}
+
+#mobile-photo{
+    height: 21rem;
+    position: relative;
+}
+
+.downloading-box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    border: 2.5px solid rgb(60, 60, 60);
+    border-radius: 15px;
+    gap: 1rem;
+    background-color: black;
+    top: 231%;
+}
+
+#downloading-box-pra1{
+    color: white;
+    font-weight: bold;
+}
+
+#downloading-box-pra2{
+    color: rgb(60, 60, 255);
+    font-size: small;
+}
+
+#boxshot-photo{
+    height: 5.2rem;
+}
+
+#download-icon-box{
+    height: 3rem;
+}
+
+#tv-png-2{
+    height: 23.4rem;
+    position: relative;
+}
+
+#tv-video-2{
+    margin-top: 2rem ;
+    margin-left: 5.6rem ;
+    position: absolute;
+    height: 11.3rem;
+}
+
+#r-b-c-h{
+    font-size: 3rem;
+    width: 90%;
+    place-self: start;
+}
+
+#childs-photo{
+    height: 25rem;
+}
+
+.questions-container{
+    margin: auto;
+    padding: 4rem;
+    border-top: .5rem solid rgb(44, 43, 43);
+    border-bottom: .5rem solid rgb(44, 43, 43);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+
+.questions-container h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.faq-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1.2rem .8rem;
+    background-color: rgb(54, 54, 54);
+}
+
+#faq-para{
+    font-size: 1.3rem;
+}
+
+#plus{
+    color: white;
+}
+
+.faq-box:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+#watch-para{
+    margin-top: 2rem;
+    font-size: 1.22rem;
+    margin-bottom: .7rem;
+}
+
+.querry-container{
+    width: 100%;
+    background-color: black;
+}
+
+.querry-container-background{
+    margin: auto;
+    width: 80%;
+    background-color: black;
+    padding: 4rem;
+    color: white;
+    text-decoration: none;
+    font-size: .85rem;
+}
+
+.querry-container a{
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0rem;
+}
+
+.link-container li{
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+#netflix-name{
+    padding: 1rem 0rem;
+}
+
+
+@media screen and (max-width: 850px) {
+    .email-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .membership-conntainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tv-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tv-text-box{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .download-background-container{
+        flex-direction: column;
+    }
+
+    .downloading-box{
+        top: 208.5%;
+    }
+
+    .right-background-container{
+        width: 80%;
+        text-align: center;
+    }
+
+    .questions-container h1{
+        text-align: center;
+    }
+
+    .questions-container p{
+        text-align: center;
+    }
+
+    .link-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(40px,100px));
+        gap: 1rem;
+        
+    }
+
+    .link-container li{
+        margin-top: 1rem;
+    }
+
+    /* #tv-png{
+        height: 11.7rem;
+    }
+
+    #tv-video {
+        margin-top: 2.5rem;
+        margin-left: 2.1rem;
+        height: 7.1rem;
+    }
+
+    #tv-png-2{
+        height: 11.7rem;
+        position: relative;
+    }
+
+    #tv-video-2{
+        margin-top: 2rem ;
+        margin-left: 5.6rem ;
+        position: absolute;
+        height: 11.3rem;
+    } */
+
+}
+
+@media screen and (max-width: 550px) {
+    #tv-png{
+        height: 11.7rem;
+    }
+
+    #tv-video {
+        margin-top: 2.5rem;
+        margin-left: 2.1rem;
+        height: 7.1rem;
+    }
+
+     #tv-png-2 {
+       height: 14.4rem;
+    }
+
+    #tv-video-2 {
+        margin-top: 0.7rem;
+        margin-left: 3.5rem;
+        position: absolute;
+        height: 6.9rem;
+    }
+
+    #childs-photo {
+        height: 19rem;
+    }
+
+}
+
+@media screen and (max-width: 423px){
+    #childs-photo {
+        height: 10rem;
+    }
+}
